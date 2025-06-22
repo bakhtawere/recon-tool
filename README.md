@@ -83,3 +83,10 @@ Each report includes:
 Developed as part of a cybersecurity internship project (ITSOLERA Cyber Department).
 
 > **Use this tool only on domains you are authorized to test.**
+
+---
+
+### Clone This Repository
+
+```bash
+git clone https://github.com/bakhtawere/recon-tool.git
