@@ -41,14 +41,17 @@ cd recon-tool
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 Make sure WhatWeb is installed:
 ```bash
 sudo apt install whatweb
+```
 Usage
 Run the tool with the desired flags. You can mix multiple options in a single command.
 
 ```bash
 python3 main.py github.com --whois --dns --subs --ports --banner --tech --report github_report.txt
+```
 Available Options
 Flag	               Description
 --whois	            Perform WHOIS lookup
