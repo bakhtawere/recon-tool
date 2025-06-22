@@ -52,29 +52,34 @@ Run the tool with the desired flags. You can mix multiple options in a single co
 ```bash
 python3 main.py github.com --whois --dns --subs --ports --banner --tech --report github_report.txt
 ```
-Available Options
-Flag	               Description
---whois	            Perform WHOIS lookup
---dns         	      Fetch A, MX, NS, and TXT DNS records
---subs	            Find subdomains using crt.sh
---ports	            Scan common TCP ports
---banner          	Grab service banners from open ports
---tech	            Detect web technologies via WhatWeb
---report	            Save output to a report file
+### Available Options
 
-Output
+| Flag       | Description                                   |
+|------------|-----------------------------------------------|
+| `--whois`  | Perform WHOIS lookup                          |
+| `--dns`    | Fetch A, MX, NS, and TXT DNS records          |
+| `--subs`   | Find subdomains using crt.sh                  |
+| `--ports`  | Scan common TCP ports                         |
+| `--banner` | Grab service banners from open ports          |
+| `--tech`   | Detect web technologies via WhatWeb           |
+| `--report` | Save output to a report file                  |
 
- The tool prints results in the terminal and optionally writes them to a .txt file.
+---
+
+### Output
+
+The tool prints results in the terminal and optionally writes them to a `.txt` file.
 
 Each report includes:
 
-Domain IP resolution
+- Domain IP resolution  
+- Date and time  
+- Output from each selected module  
 
-Date and time
+---
 
-Output from each selected module
+### Notes
 
-Notes
 Developed as part of a cybersecurity internship project (ITSOLERA Cyber Department).
 
-Use this tool only on domains you are authorized to test.
+> **Use this tool only on domains you are authorized to test.**
